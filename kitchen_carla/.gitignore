@@ -1,0 +1,37 @@
+**sync-conflict**
+
+exp_local
+__pycache__
+*.pyc
+data
+.DS_Store
+*.png
+*.jpg
+bet_data_release
+explorations
+docs
+*.bak
+analysis
+
+# vim
+*.swp
+*.swo
+*.swn
+
+# jupyter notebook
+notebooks
+.ipynb_checkpoints
+*.ipynb
+wandb
+exp
+.DS_Store
+
+# conda env
+bin/
+etc/
+lib/
+share/
+
+*_bet*
+conda_env.yml
+

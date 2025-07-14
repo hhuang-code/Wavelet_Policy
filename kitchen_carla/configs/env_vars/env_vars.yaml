@@ -1,0 +1,3 @@
+datasets:
+  carla_multipath_town04_merge: /home/mmvc/Documents/Hao_Huang/projects/Wavelet_Policy/kitchen_carla/bet_data_release/carla
+  relay_kitchen: /home/mmvc/Documents/Hao_Huang/projects/Wavelet_Policy/kitchen_carla/bet_data_release/kitchen

@@ -1,0 +1,56 @@
+defaults:
+  - _self_
+  - encoder: identity
+  - action_ae: discretizers/k_means_kitchen_best
+  - env: relay_kitchen_traj
+  - state_prior: mingpt_kitchen_best
+  - env_vars: env_vars
+
+lazy_init_models: True
+
+n_layer: 6
+converter: id # id, mlp, conv, causal_conv, trm
+scaler: # id, sample, conv
+
+dct_percentage: 0.2
+
+device: cuda
+seed: 42
+load_dir: ${env.load_dir}
+# Length of history
+window_size: 3
+
+epoch: 50
+
+# Environment running setup
+num_eval_eps: 100
+action_batch_size: 1
+num_eval_steps: 700
+use_state_prior: True
+enable_offsets: True
+action_update_every: 1
+flatten_obs: False
+enable_render: False
+
+# Wavelet loss config
+detail_loss_weight: 0.1
+smooth_loss_weight: 0.1
+
+# Plotting setup
+plot_interactions: False
+start_from_seen: False
+record_video: False
+
+# Wandb setup
+project: behavior_transformer_repro_test
+experiment: kitchen_eval
+
+hydra:
+  job:
+    override_dirname: ${experiment}
+  run:
+    dir: ./exp_local/${now:%Y.%m.%d}/${now:%H%M%S}_${experiment}_layer${n_layer}_ws${window_size}_${converter}_${scaler}_seed${seed}_ep${epoch}_dw${detail_loss_weight}_sw${smooth_loss_weight}
+#    dir: ./exp_local/${now:%Y.%m.%d}/${now:%H%M%S}_${experiment}_layer${n_layer}_ws${window_size}_seed${seed}_ep${epoch}
+  sweep:
+    dir: ./exp/${now:%Y.%m.%d}/${now:%H%M}_${experiment}
+    subdir: ${hydra.job.num}
