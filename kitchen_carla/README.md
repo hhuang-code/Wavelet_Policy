@@ -66,7 +66,7 @@ python analysis/parse_log.py
 ```angular2html
 bash scripts/carla_test.sh
 
-# Similarly, run `python analysis/parse_log_bet.py` and `python analysis/parse_log_bet_modes.py`.
+# Similarly, run `python analysis/parse_log.py` and `python analysis/parse_log_modes.py`.
 ```
 
 ### Errors and Solutions
