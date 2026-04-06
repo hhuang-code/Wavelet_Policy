@@ -47,10 +47,11 @@ We would appreciate the authors for their great work.
 ```angular2html
 If you found this repository is helpful, please cite:
 
-@article{huang2025wavelet,
+@inproceedings{huang2025wavelet,
   title={Wavelet Policy: Lifting Scheme for Policy Learning in Long-Horizon Tasks},
   author={Huang, Hao and Yuan, Shuaihang and Bethala, Geeta Chandra Raju and Wen, Congcong and Tzes, Anthony and Fang, Yi},
-  journal={arXiv preprint arXiv:2507.04331},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={12349--12359},
   year={2025}
 }
 ```
