@@ -1,6 +1,6 @@
 # Wavelet Policy: Lifting Scheme for Policy Learning in Long-Horizon Tasks
 
-[![arXiv](https://img.shields.io/badge/arXiv-2507.04331-b31b1b.svg)](https://arxiv.org/abs/2507.04331)[![Paper](https://img.shields.io/badge/Paper-ICCV%202025-4b44ce.svg)](https://openaccess.thecvf.com/content/ICCV2025/papers/Huang_Wavelet_Policy_Lifting_Scheme_for_Policy_Learning_in_Long-Horizon_Tasks_ICCV_2025_paper.pdf)[![Website](https://img.shields.io/badge/Website-Project%20Page-2ea44f.svg)](https://hhuang-code.github.io/wavelet_policy/)[![License](https://img.shields.io/badge/License-See%20LICENSE-blue.svg)](LICENSE)
+[![arXiv](https://img.shields.io/badge/arXiv-2507.04331-b31b1b.svg)](https://arxiv.org/abs/2507.04331) [![Paper](https://img.shields.io/badge/Paper-ICCV%202025-4b44ce.svg)](https://openaccess.thecvf.com/content/ICCV2025/papers/Huang_Wavelet_Policy_Lifting_Scheme_for_Policy_Learning_in_Long-Horizon_Tasks_ICCV_2025_paper.pdf) [![Website](https://img.shields.io/badge/Website-Project%20Page-2ea44f.svg)](https://hhuang-code.github.io/wavelet_policy/) [![License](https://img.shields.io/badge/License-See%20LICENSE-blue.svg)](LICENSE)
 
 This is the official repository of [Wavelet Policy: Lifting Scheme for Policy Learning in Long-Horizon Tasks]([https://arxiv.org/pdf/2507.04331](https://openaccess.thecvf.com/content/ICCV2025/papers/Huang_Wavelet_Policy_Lifting_Scheme_for_Policy_Learning_in_Long-Horizon_Tasks_ICCV_2025_paper.pdf)).
 
